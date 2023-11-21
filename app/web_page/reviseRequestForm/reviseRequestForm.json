@@ -2,9 +2,9 @@
   "id" : "reviseRequestForm",
   "name" : "reviseRequestForm",
   "type" : "form",
-  "uuid" : "05718a1a-4c6b-48ac-935e-726c0ba87de0",
+  "uuid" : "04f781d5-3671-4a88-b873-bfb4c22029af",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1700580185658,
+  "lastUpdate" : 1700581699134,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -14,7 +14,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "1e3aee5b-2313-4078-8840-ea1a6b21bb1f",
+        "reference" : "2fbbb320-ceb3-4a94-8194-da105435abdd",
         "hasValidationError" : false,
         "id" : "pbContainer",
         "rows" : [
@@ -53,7 +53,7 @@
                   "value" : 12
                 }
               },
-              "reference" : "970c0d6b-fd3e-424d-b65b-1e00039745c4",
+              "reference" : "6bb9dd60-09e0-4e55-af30-a11d5341125e",
               "hasValidationError" : false,
               "id" : "pbTitle",
               "description" : ""
@@ -113,7 +113,7 @@
                   "value" : 4
                 }
               },
-              "reference" : "51349295-6393-4a11-89cd-ce0cb4f00062",
+              "reference" : "6cdcbff2-246b-430a-95e6-9023e550782e",
               "hasValidationError" : false,
               "id" : "pbText",
               "description" : ""
@@ -129,7 +129,7 @@
           "xs" : 12
         },
         "propertyValues" : { },
-        "reference" : "7e06d6ca-b25a-4e19-bddb-25d603497c4a",
+        "reference" : "cd063f81-5121-466f-b27a-4fdd0a06bd3c",
         "hasValidationError" : false,
         "id" : "pbFormContainer",
         "container" : {
@@ -138,7 +138,7 @@
             "xs" : 12
           },
           "propertyValues" : { },
-          "reference" : "da805316-e4c9-4929-80c6-17216edc0600",
+          "reference" : "f926bc2f-b766-484a-850c-8f435d7ea953",
           "hasValidationError" : false,
           "id" : "pbContainer",
           "rows" : [
@@ -166,7 +166,7 @@
                   },
                   "text" : {
                     "type" : "interpolation",
-                    "value" : "Annual Leave Request Revision"
+                    "value" : "Request"
                   },
                   "alignment" : {
                     "type" : "constant",
@@ -175,13 +175,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "allowHTML" : {
-                    "type" : "constant",
-                    "value" : false
                   }
                 },
-                "reference" : "5eddaabf-1e44-42b7-8ece-28c0ac78eda3",
+                "reference" : "eff7051b-2e4a-44d5-8a0c-a22f29c66d67",
                 "hasValidationError" : false,
                 "id" : "pbTitle",
                 "description" : ""
@@ -213,7 +209,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "acde688c-0eed-4a5f-b7da-5c8d3caa476d",
+                "reference" : "fc58c8a1-9f9e-4e14-a7c3-23ac92fce83e",
                 "hasValidationError" : false,
                 "id" : "pbContainer",
                 "rows" : [
@@ -275,7 +271,7 @@
                           "value" : false
                         }
                       },
-                      "reference" : "7a487704-d57d-4cec-9929-ac39eb116c3d",
+                      "reference" : "2db8b2c3-1acb-484b-b23b-9a40fd343b2c",
                       "hasValidationError" : false,
                       "id" : "pbInput",
                       "description" : ""
@@ -351,7 +347,7 @@
                           "value" : "request.startDate"
                         }
                       },
-                      "reference" : "2f9031c8-e872-4970-95f0-30af74df80ee",
+                      "reference" : "ec8e6749-e55f-4efa-bea5-0019adc775c3",
                       "hasValidationError" : false,
                       "id" : "pbDatePicker",
                       "description" : ""
@@ -427,9 +423,54 @@
                           "value" : "request.endDate"
                         }
                       },
-                      "reference" : "e4ede56d-d82d-4841-8773-95f3ff7ef41a",
+                      "reference" : "25e24d7b-85c8-4860-87d8-9c4b5d867c79",
                       "hasValidationError" : false,
                       "id" : "pbDatePicker",
+                      "description" : ""
+                    }
+                  ],
+                  [
+                    {
+                      "type" : "component",
+                      "dimension" : {
+                        "md" : 12,
+                        "sm" : 12,
+                        "xs" : 12,
+                        "lg" : 12
+                      },
+                      "propertyValues" : {
+                        "labelHidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "hidden" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "cssClasses" : {
+                          "type" : "constant",
+                          "value" : ""
+                        },
+                        "disabled" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "label" : {
+                          "type" : "interpolation",
+                          "value" : "Cancel Application"
+                        },
+                        "dimension" : {
+                          "type" : "constant",
+                          "value" : 12
+                        },
+                        "value" : {
+                          "type" : "variable",
+                          "value" : "request.cancelApplication"
+                        }
+                      },
+                      "reference" : "b9247ac9-fbd5-4686-9129-98e861301642",
+                      "hasValidationError" : false,
+                      "id" : "pbCheckbox",
                       "description" : ""
                     }
                   ]
@@ -463,7 +504,7 @@
                   },
                   "label" : {
                     "type" : "interpolation",
-                    "value" : "Submit Revisions"
+                    "value" : "Submit"
                   },
                   "dataToSend" : {
                     "type" : "expression",
@@ -509,30 +550,9 @@
                   "dimension" : {
                     "type" : "constant",
                     "value" : 12
-                  },
-                  "assign" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "url" : {
-                    "type" : "interpolation"
-                  },
-                  "responseStatusCode" : {
-                    "type" : "variable"
-                  },
-                  "dataFromSuccess" : {
-                    "type" : "variable"
-                  },
-                  "closeOnSuccess" : {
-                    "type" : "constant",
-                    "value" : false
-                  },
-                  "modalId" : {
-                    "type" : "constant",
-                    "value" : ""
                   }
                 },
-                "reference" : "14e23cf3-86db-41c6-8c88-390bfec9a7b9",
+                "reference" : "63ae9a6d-a4f0-4214-9bcf-4e563867caf7",
                 "hasValidationError" : false,
                 "id" : "pbButton",
                 "description" : ""
@@ -584,7 +604,7 @@
                     "value" : 12
                   }
                 },
-                "reference" : "4b0e7774-33e0-4153-938d-06ee3a0991d9",
+                "reference" : "e1da4c07-e09b-48bb-87ff-2710ba411e6c",
                 "hasValidationError" : false,
                 "id" : "pbText",
                 "description" : ""
@@ -634,7 +654,8 @@
         "\t\trequestInput: {",
         "\t\t\tdescription: $data.request.description !== undefined ? $data.request.description : null,",
         "\t\t\tstartDate: $data.request.startDate !== undefined ? $data.request.startDate : null,",
-        "\t\t\tendDate: $data.request.endDate !== undefined ? $data.request.endDate : null",
+        "\t\t\tendDate: $data.request.endDate !== undefined ? $data.request.endDate : null,",
+        "\t\t\tcancelApplication: $data.request.cancelApplication !== undefined ? $data.request.cancelApplication : null",
         "\t\t}",
         "\t}",
         "}"
@@ -658,16 +679,16 @@
   },
   "assets" : [
     {
-      "id" : "f4fa3129-1fbc-4200-a4f2-34869796f8ed",
-      "name" : "localization.json",
-      "type" : "json",
+      "id" : "6692cfa1-4e8b-463c-a1a5-619587abc751",
+      "name" : "style.css",
+      "type" : "css",
       "order" : 0,
       "external" : false
     },
     {
-      "id" : "2de15648-704d-41fa-9731-e80d590501c8",
-      "name" : "style.css",
-      "type" : "css",
+      "id" : "d13a389a-070a-485f-91e0-4f9eb945fbb6",
+      "name" : "localization.json",
+      "type" : "json",
       "order" : 0,
       "external" : false
     }

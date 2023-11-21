@@ -9,6 +9,7 @@
                 <field type="LOCALDATE" length="255" name="endDate" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="isComplete" nullable="true" collection="false"/>
                 <field type="BOOLEAN" length="255" name="isApproved" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="cancelApplication" nullable="true" collection="false"/>
             </fields>
             <uniqueConstraints/>
             <queries/>
