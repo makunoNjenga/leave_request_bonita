@@ -8,7 +8,7 @@
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_psyFBYhwEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_psyFBohwEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_psyFB4hwEe6QbfefIlIg4g" name="Initiate the request" outgoing="_l3_S0IhyEe6QbfefIlIg4g" incoming="_psyFGIhwEe6QbfefIlIg4g" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_psyFB4hwEe6QbfefIlIg4g" documentation="Send a request to take your annual" name="Initiate the request" outgoing="_l3_S0IhyEe6QbfefIlIg4g" incoming="_psyFGIhwEe6QbfefIlIg4g" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_psyFCIhwEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_psyFCYhwEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_psyFCohwEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
@@ -147,7 +147,7 @@
           </contract>
           <expectedDuration xmi:type="expression:Expression" xmi:id="_5d-a8IhyEe6QbfefIlIg4g" name="" content="" returnType="java.lang.Long" returnTypeFixed="true"/>
         </elements>
-        <elements xmi:type="process:Task" xmi:id="_HwDZcIhzEe6QbfefIlIg4g" name="Receive Results" outgoing="_M8-xUIhzEe6QbfefIlIg4g" incoming="_-POjcIhyEe6QbfefIlIg4g" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_HwDZcIhzEe6QbfefIlIg4g" documentation="Congratulations, Your leave request was approved successfully. Have a great vaction." name="Receive Results" outgoing="_M8-xUIhzEe6QbfefIlIg4g" incoming="_-POjcIhyEe6QbfefIlIg4g" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_-PNVUohyEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_-PNVUYhyEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_-PNVU4hyEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
@@ -184,7 +184,7 @@
         </elements>
       </elements>
       <elements xmi:type="process:Lane" xmi:id="_Bd04UIhxEe6QbfefIlIg4g" name="Manager Lane" actor="_Qmx0cIhxEe6QbfefIlIg4g">
-        <elements xmi:type="process:Task" xmi:id="_qRseAIhyEe6QbfefIlIg4g" name="Check and approve" outgoing="_1HgJ8IhyEe6QbfefIlIg4g" incoming="_pO7ZcIhyEe6QbfefIlIg4g" overrideActorsOfTheLane="false">
+        <elements xmi:type="process:Task" xmi:id="_qRseAIhyEe6QbfefIlIg4g" documentation="Check and verify if the employee has met all the creterial required to be approved for a leave" name="Check and approve" outgoing="_1HgJ8IhyEe6QbfefIlIg4g" incoming="_pO7ZcIhyEe6QbfefIlIg4g" overrideActorsOfTheLane="false">
           <dynamicLabel xmi:type="expression:Expression" xmi:id="_pO6LUYhyEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
           <dynamicDescription xmi:type="expression:Expression" xmi:id="_pO6LUIhyEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
           <stepSummary xmi:type="expression:Expression" xmi:id="_pO6LUohyEe6QbfefIlIg4g" name="" content="" returnTypeFixed="true"/>
