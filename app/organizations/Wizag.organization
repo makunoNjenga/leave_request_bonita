@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<organization:Organization xmlns:organization="http://documentation.bonitasoft.com/organization-xml-schema/1.1" name="Wizag">
+  <customUserInfoDefinitions/>
+  <users>
+    <user userName="Bob">
+      <firstName>Bob</firstName>
+      <lastName>doe</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Don">
+      <firstName>Don</firstName>
+      <lastName>Doe</lastName>
+      <manager>Bob</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Mike">
+      <firstName>Micheal</firstName>
+      <lastName>Doe</lastName>
+      <manager>Bob</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Jane">
+      <firstName>Jane</firstName>
+      <lastName>Doe</lastName>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Joel">
+      <firstName>Joel</firstName>
+      <lastName>Doe</lastName>
+      <manager>Jane</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+    <user userName="Janet">
+      <firstName>Janet</firstName>
+      <lastName>Doe</lastName>
+      <manager>Jane</manager>
+      <personalData/>
+      <professionalData/>
+      <password encrypted="false">bpm</password>
+      <customUserInfoValues/>
+    </user>
+  </users>
+  <roles>
+    <role name="Accountant">
+      <displayName>Accountant</displayName>
+    </role>
+    <role name="HR Clerk">
+      <displayName>HR Clerk</displayName>
+    </role>
+  </roles>
+  <groups>
+    <group name="Employees">
+      <displayName>Employees</displayName>
+    </group>
+    <group name="Supervisors">
+      <displayName>Supervisors</displayName>
+    </group>
+  </groups>
+  <memberships>
+    <membership>
+      <userName>Bob</userName>
+      <roleName>Accountant</roleName>
+      <groupName>Supervisors</groupName>
+    </membership>
+    <membership>
+      <userName>Don</userName>
+      <roleName>Accountant</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>Mike</userName>
+      <roleName>Accountant</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>Jane</userName>
+      <roleName>HR Clerk</roleName>
+      <groupName>Supervisors</groupName>
+    </membership>
+    <membership>
+      <userName>Joel</userName>
+      <roleName>HR Clerk</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+    <membership>
+      <userName>Janet</userName>
+      <roleName>HR Clerk</roleName>
+      <groupName>Employees</groupName>
+    </membership>
+  </memberships>
+</organization:Organization>

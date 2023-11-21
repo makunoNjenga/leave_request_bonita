@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel xmlns="http://documentation.bonitasoft.com/bdm-xml-schema/1.0" modelVersion="1.0" productVersion="8.0.0">
+    <businessObjects>
+        <businessObject qualifiedName="com.leave.model.Request">
+            <fields>
+                <field type="STRING" length="255" name="name" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="description" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="startDate" nullable="true" collection="false"/>
+                <field type="LOCALDATE" length="255" name="endDate" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isComplete" nullable="true" collection="false"/>
+                <field type="BOOLEAN" length="255" name="isApproved" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>
