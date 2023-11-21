@@ -4,7 +4,7 @@
   "type" : "form",
   "uuid" : "04f781d5-3671-4a88-b873-bfb4c22029af",
   "modelVersion" : "2.4",
-  "lastUpdate" : 1700581699134,
+  "lastUpdate" : 1700585531394,
   "description" : "Page generated with Bonita UI designer",
   "rows" : [
     [
@@ -223,27 +223,35 @@
                         "lg" : 12
                       },
                       "propertyValues" : {
-                        "labelHidden" : {
+                        "cssClasses" : {
                           "type" : "constant",
-                          "value" : false
+                          "value" : ""
                         },
                         "hidden" : {
                           "type" : "constant",
                           "value" : false
                         },
-                        "labelPosition" : {
+                        "readOnly" : {
                           "type" : "constant",
-                          "value" : "top"
+                          "value" : false
                         },
-                        "cssClasses" : {
+                        "required" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "allowHTML" : {
+                          "type" : "constant",
+                          "value" : false
+                        },
+                        "minLength" : {
                           "type" : "constant",
                           "value" : ""
                         },
-                        "labelWidth" : {
+                        "maxLength" : {
                           "type" : "constant",
-                          "value" : 1
+                          "value" : ""
                         },
-                        "readOnly" : {
+                        "labelHidden" : {
                           "type" : "constant",
                           "value" : false
                         },
@@ -251,30 +259,22 @@
                           "type" : "interpolation",
                           "value" : "Description"
                         },
-                        "placeholder" : {
-                          "type" : "constant"
-                        },
-                        "type" : {
+                        "labelPosition" : {
                           "type" : "constant",
-                          "value" : "text"
+                          "value" : "top"
                         },
-                        "dimension" : {
+                        "labelWidth" : {
                           "type" : "constant",
-                          "value" : 12
+                          "value" : 1
                         },
                         "value" : {
                           "type" : "variable",
                           "value" : "request.description"
-                        },
-                        "required" : {
-                          "type" : "constant",
-                          "value" : false
                         }
                       },
-                      "reference" : "2db8b2c3-1acb-484b-b23b-9a40fd343b2c",
+                      "reference" : "c99c31c8-a279-4a61-a179-495506687b36",
                       "hasValidationError" : false,
-                      "id" : "pbInput",
-                      "description" : ""
+                      "id" : "pbTextarea"
                     }
                   ],
                   [
